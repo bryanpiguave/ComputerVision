@@ -1,4 +1,4 @@
-# Plants Classifier
+# Produce Classifier
 
 The purpose of this repository 
 is to create model to classifier plants and fruits using Tensorflow
@@ -7,7 +7,8 @@ is to create model to classifier plants and fruits using Tensorflow
 
 # Setup
 
-Install the dependences and packages listed in the yaml file.
+To get started, make sure to install all the necessary dependencies and packages listed in the provided YAML file.
+
 
 
 
@@ -18,11 +19,19 @@ The dataset is publicly available in [Kaggle](https://www.kaggle.com/datasets/yu
 
 # Model 
 Due to computational limitations, the train model will be trained with 3 classes: bananas,coconuts, and aloevera.
+Here's a table of the models I've experimented with, along with their respective accuracy:
+
+| Model  | Accuracy |
+| ------------- | ------------- |
+| MobileNet V2  | 80%  |
 
 
 # Usage 
 
-
+The demo can be used 
+```
+python -m streamlit run app.py
+```
 
 # Author 
 Bryan Piguave
