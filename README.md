@@ -7,9 +7,21 @@ is to create model to classifier plants and fruits using Tensorflow
 
 # Setup
 
+Install the dependences and packages listed in the yaml file.
+
+
+
+
 # Dataset
 
 The dataset is publicly available in [Kaggle](https://www.kaggle.com/datasets/yudhaislamisulistya/plants-type-datasets)
+
+# Model 
+Due to computational limitations, the train model will be trained with 3 classes: bananas,coconuts, and aloevera.
+
+
+# Usage 
+
 
 
 # Author 
