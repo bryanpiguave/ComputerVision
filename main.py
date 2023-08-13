@@ -8,6 +8,8 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 import argparse
 import tensorflow_hub as hub
+import keras
+from tensorflow.keras import optimizers
 
 
 print(tf.__version__)
@@ -44,12 +46,12 @@ val_ds = tf.keras.utils.image_dataset_from_directory(
 
 
 normalization_layer = tf.keras.layers.Rescaling(1./255)
-normalized_ds = train_ds.map(lambda x, y: (normalization_layer(x), y))
-
+train_ds = train_ds.map(lambda x, y: (normalization_layer(x), y))
+val_ds = val_ds.map(lambda x, y: (normalization_layer(x), y))
 
 model = tf.keras.Sequential([
-    hub.KerasLayer("https://tfhub.dev/tensorflow/efficientnet/b0/classification/1")
-])
+    hub.KerasLayer("https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/classification/5",
+                  trainable=True)])
 model.build([None, img_height, img_width, 3])  # Batch input shape.
 
 
@@ -58,8 +60,9 @@ train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
 
+optimizer=optimizers.Adam(lr=0.005)
 model.compile(
-  optimizer='adam',
+  optimizer=optimizer,
   loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
   metrics=['accuracy'])
 
