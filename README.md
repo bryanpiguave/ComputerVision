@@ -38,4 +38,4 @@ python -m streamlit run app.py
 # Author 
 Bryan Piguave
 Email: bryan.piguave@eastern.edu
-LinkedIn: (Bryan Piguave)
+LinkedIn: [Bryan Piguave](https://www.linkedin.com/in/bryan-piguave-llano/)
