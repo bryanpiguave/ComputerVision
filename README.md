@@ -16,6 +16,8 @@ To get started, make sure to install all the necessary dependencies and packages
 # Dataset
 
 The dataset is publicly available in [Kaggle](https://www.kaggle.com/datasets/yudhaislamisulistya/plants-type-datasets)
+and it has been extended using a [fruit dataset](https://www.kaggle.com/datasets/moltean/fruits)
+
 
 # Model 
 Due to computational limitations, the train model will be trained with 3 classes: bananas,coconuts, and aloevera.
