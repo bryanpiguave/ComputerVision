@@ -37,3 +37,5 @@ python -m streamlit run app.py
 
 # Author 
 Bryan Piguave
+Email: bryan.piguave@eastern.edu
+LinkedIn: (Bryan Piguave)
