@@ -23,9 +23,9 @@ and it has been extended using a [fruit dataset](https://www.kaggle.com/datasets
 Due to computational limitations, the train model will be trained with 3 classes: bananas,coconuts, and aloevera.
 Here's a table of the models I've experimented with, along with their respective accuracy:
 
-| Model  | Accuracy |
-| ------------- | ------------- |
-| MobileNet V2  | 80%  |
+| Model  | Accuracy |  Classes |
+| ------------- | ------------- |  ------------- |
+| MobileNet V2  | 80%  | bananas,coconuts, and aloevera |
 
 
 # Usage 
