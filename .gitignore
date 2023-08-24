@@ -1,3 +1,9 @@
 data/
 weights/
 *.jpg
+*.txt
+*.csv
+*.msg
+*.pkl.gz
+*.index
+fastdup_analysis/
