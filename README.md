@@ -10,6 +10,9 @@ is to create model to classifier plants and fruits using Tensorflow
 To get started, make sure to install all the necessary dependencies and packages listed in the provided YAML file.
 
 
+```
+conda env create -f environment.yml
+```
 
 
 
