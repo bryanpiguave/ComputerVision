@@ -1,0 +1,17 @@
+name: main
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  test_code:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Anaconda-Action
+        id: step1
+        uses: fdiblen/anaconda-action@0.1.7
+        with:
+          envFileName: 'env.yml'
+
