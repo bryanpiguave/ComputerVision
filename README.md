@@ -1,6 +1,5 @@
 # Produce Classifier
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![main](https://github.com/bryanpiguave/ProduceCV/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/bryanpiguave/ProduceCV/actions/workflows/main.yml)
 
 The purpose of this repository 
 is to create model to classifier plants and fruits using Tensorflow
