@@ -1,5 +1,6 @@
 # Produce Classifier
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 The purpose of this repository 
 is to create model to classifier plants and fruits using Tensorflow
