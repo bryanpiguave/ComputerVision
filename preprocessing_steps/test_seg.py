@@ -27,7 +27,7 @@ def main():
     output = np.array(output) 
     output = cv2.cvtColor(output, cv2.COLOR_RGBA2BGRA)
     background = cv2.imread("data/background.jpg",cv2.IMREAD_UNCHANGED)
-    img_result=cvzone.overlayPNG(background,output,[20,20])
+    img_result=cvzone.overlayPNG(background,output,[100,20])
     #Saving the image in the given path
     cv2.imwrite(filename="test.png",img=img_result)
 
