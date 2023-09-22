@@ -4,6 +4,8 @@
 The purpose of this repository 
 is to create model to classifier plants and fruits using Tensorflow
 
+My idea is to use computer vision models to identify fruits and provide nutritional information.
+
 ![produce](https://c1.wallpaperflare.com/preview/561/447/715/produce-fruits-vegetables-farmer-s-market.jpg)
 
 # Setup
@@ -12,7 +14,7 @@ To get started, make sure to install all the necessary dependencies and packages
 
 
 ```
-conda env create -f environment.yml
+conda env create -f env.yaml
 ```
 
 
