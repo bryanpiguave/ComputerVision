@@ -15,8 +15,16 @@ To get started, make sure to install all the necessary dependencies and packages
 
 ```
 conda env create -f env.yaml
+
 ```
 
+
+You can also use pip to create the environment
+```
+python -m venv venv 
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 
 # Dataset
