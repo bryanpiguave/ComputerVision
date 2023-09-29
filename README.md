@@ -23,7 +23,7 @@ conda env create -f env.yaml
 You can also use pip to create the environment
 ```
 python -m venv venv 
-source venv/bin/activate
+source venv/bin/activate (Linux) / venv\Scripts\Activate.ps1 (Windows)
 pip install -r requirements.txt
 ```
 
